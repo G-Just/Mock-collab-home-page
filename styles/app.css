@@ -54,6 +54,11 @@
   color: black;
   font-family: "Roboto";
   font-size: 1rem;
+  font-weight: 400;
+}
+
+/* App section left side paragraph blocks bold text */
+#app > div > div:first-child > p > span {
   font-weight: 600;
 }
 

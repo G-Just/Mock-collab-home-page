@@ -1,0 +1,26 @@
+/* Projects section block */
+#projects > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Projects section images */
+#projects > div > div > img {
+  width: 400px;
+  height: 270px;
+  object-fit: cover;
+}
+
+/* Projects section image names */
+#projects > div > div > p {
+  color: #60267f;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+/* Projects section image name amounts */
+#projects > div > div > p:last-child {
+  color: black;
+}

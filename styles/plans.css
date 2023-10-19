@@ -1,0 +1,170 @@
+/* Plans section block */
+#plans {
+  text-align: center;
+}
+
+/* Plans title */
+#plans > h1 {
+  margin-bottom: 0;
+}
+
+/* Plans block text under title */
+#plans > p {
+  color: #a79d9d;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+/* Switch entire div */
+#plans > p + div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* Switch text */
+#plans > p + div > p {
+  color: #a79d9d;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* Switch discount text */
+#plans > p + div > p:last-child {
+  background-color: yellow;
+  color: black;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  padding: 0.2rem 0.7rem;
+}
+
+/* Card div cards entire div */
+#plans > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Card div cards */
+#plans > div:last-child > div {
+  padding: 1rem 3rem;
+  text-align: start;
+  height: 33rem;
+  width: 25rem;
+  border-radius: 0.8rem;
+  border: 0.5px solid #aaa;
+}
+
+/* Card div last card */
+#plans > div:last-child > div:last-child {
+  background: #56e6a5;
+}
+
+/* Card div text */
+#plans > div:last-child > div > p {
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+/* Price inside the card */
+.price {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+
+/* Button div after price  */
+.price + div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Button itself after price  */
+.rq-button {
+  background: white;
+  color: #2b0236;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  border: 2px solid #2b0236;
+  padding: 1rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* Button itself after price hover effect  */
+.rq-button:hover {
+  color: white;
+  background: #2b0236;
+}
+
+/* List under the button marker */
+#plans > div:last-child > div > ul > li::marker {
+  content: url(../media/CaretRight.svg);
+}
+
+/* List under the button */
+#plans > div:last-child > div > ul > li {
+  font-size: 1.1rem;
+  padding: 0.3em;
+}
+
+/* ===============SLIDER STUFF=============== */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #56e6a5;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  transition: 0.4s;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
