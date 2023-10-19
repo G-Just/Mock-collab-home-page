@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "DM Sans";
+}
+
+body > div:first-child {
+  background-color: #60267f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > div:first-child > p,
+a {
+  color: white;
+}
+
+nav {
+  height: 7rem;
+  background: #fff;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+}
+
+nav > h1 {
+  cursor: pointer;
+  color: #9a54bc;
+  font-family: "Comfortaa";
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 6.25rem;
+}
+
+nav > div > ul {
+  display: flex;
+  gap: 2.62rem;
+  margin-left: 59rem;
+  padding: 0;
+}
+
+nav > div > ul > a {
+  color: #2b0236;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav > a {
+  color: #9a54bc;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  border: 2px solid #9a54bc;
+  padding: 0.6rem;
+  margin-left: 2.56rem;
+  margin-right: 1.5rem;
+}
+
+nav > a:hover {
+  background-color: #9a54bc;
+  color: white;
+}
+
+.title {
+  color: black;
+  font-family: "Roboto";
+  font-size: 3rem;
+  font-weight: 500;
+}

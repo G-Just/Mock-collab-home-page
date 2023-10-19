@@ -1,0 +1,101 @@
+#hero {
+  text-align: center;
+}
+
+#hero > h1 {
+  color: #2b0236;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 4.69rem;
+  margin-left: 8.25rem;
+  width: 103.4375rem;
+}
+
+#hero > a {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.42088rem;
+  border: 3.367px solid #9a54bc;
+  background: #9a54bc;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  padding: 1.05rem;
+}
+
+#hero > a:hover {
+  background: #ac62d1;
+  border: 3.367px solid #ac62d1;
+}
+
+#hero > div {
+  width: 56.5625rem;
+  height: 56.5625rem;
+  border-radius: 56.5625rem;
+  background: rgba(245, 225, 255, 0.3);
+  margin-top: 5rem;
+  margin-left: 31.7rem;
+  padding-top: 2.44rem;
+  padding-left: 11.4rem;
+}
+
+#hero > div > div {
+  width: 33.625rem;
+  height: 33.625rem;
+  flex-shrink: 0;
+  border-radius: 33.625rem;
+  background: rgba(245, 225, 255, 0.8);
+  padding-top: 1.75rem;
+  padding-left: 8.12rem;
+}
+
+#hero > div > div > div {
+  width: 17.3125rem;
+  height: 33.53988rem;
+  border-radius: 0.6905rem;
+  border: 3px solid #9a54bc;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero > div > div > div > h1 {
+  cursor: default;
+  color: #9a54bc;
+  text-align: center;
+  text-shadow: 0px 0.508396565914154px 1.3557242155075073px rgba(184, 216, 242, 0.25);
+  font-family: Comfortaa;
+  font-size: 3.88919rem;
+  font-weight: 500;
+}
+
+#hero > div > a {
+  display: flex;
+  width: 15.9375rem;
+  height: 3.8125rem;
+  padding: 1.05219rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.05219rem;
+  flex-shrink: 0;
+  color: #60267f;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 0.42088rem;
+  border: 3.367px solid #9a54bc;
+  background: white;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 6.15rem;
+  margin-left: 8.88rem;
+}
+
+#hero > div > a:hover {
+  background: #9a54bc;
+  color: white;
+}

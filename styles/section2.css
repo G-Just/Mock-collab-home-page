@@ -1,0 +1,28 @@
+#brands > h1 {
+  padding-top: 7.31rem;
+  padding-left: 45.37rem;
+}
+
+#brands > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 6.1rem;
+}
+#brands > div > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#brands > div > div,
+img {
+  cursor: pointer;
+}
+
+#brands > div > div > img:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
