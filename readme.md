@@ -4,7 +4,7 @@ HTML/CSS mock landing page
 
 ## Description
 
-Developing a mock landing page by using HTML/CSS only in hopes to learn and improve at coding along the way.
+Developing a mock landing page by using HTML/CSS only, in hopes to learn and improve at coding along the way.
 
 ## Authors
 
