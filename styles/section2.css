@@ -1,25 +1,24 @@
-#brands > h1 {
-  padding-top: 7.31rem;
-  padding-left: 45.37rem;
-}
-
+/* Trusted brands section entire block */
 #brands > div {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 6.1rem;
 }
+
+/* Trusted brands section logo block */
 #brands > div > div {
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
+/* Faking that brands are clickable */
 #brands > div > div,
 img {
   cursor: pointer;
 }
 
+/* Constructing the last logo thats comprised of 2 svg's (idk why) */
 #brands > div > div > img:first-child {
   position: absolute;
   top: 50%;
