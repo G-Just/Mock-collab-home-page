@@ -1,0 +1,37 @@
+#download {
+  background: #9a54bc;
+  color: white;
+}
+
+#download > h1 {
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+  color: white;
+  font-family: Roboto;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#download > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#download > div > .rq-button {
+  flex-grow: 0 !important;
+  border-radius: 0.5rem;
+  border: 0.2rem solid white;
+  background: #9a54bc;
+  box-shadow: 0px 4.402px 8.804px 0px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin-bottom: 10rem;
+}
+
+#download > div > .rq-button:hover {
+  background: white;
+  color: #9a54bc;
+}

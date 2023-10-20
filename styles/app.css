@@ -60,6 +60,7 @@
 /* App section left side paragraph blocks bold text */
 #app > div > div:first-child > p > span {
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* App section right side div containing the phone image */

@@ -31,3 +31,23 @@
   background: white;
   color: #9a54bc;
 }
+
+#roadmap {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#roadmap > img {
+  scale: 2;
+}
+
+#roadmap > p {
+  color: #9a54bc;
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
