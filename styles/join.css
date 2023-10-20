@@ -1,0 +1,33 @@
+#join > h1 {
+  margin-bottom: 1rem;
+}
+
+#join > p {
+  color: black;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+#join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#join > .rq-button {
+  border-radius: 0.4rem;
+  border: 3px solid #9a54bc;
+  background: #9a54bc;
+  color: white;
+}
+
+#join > .rq-button:hover {
+  border-radius: 0.4rem;
+  border: 3px solid #9a54bc;
+  background: white;
+  color: #9a54bc;
+}

@@ -1,0 +1,42 @@
+/* Rating section block */
+#rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* Stars */
+#rating > img {
+  scale: 2.5;
+}
+
+/* Div containing text+arrows */
+#rating > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+/* Text */
+#rating > div > p {
+  width: 50rem;
+  color: black;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Arrow images */
+#rating > div > img {
+  scale: 2;
+}
+
+/* Text after person portrait */
+#rating > p {
+  color: black;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
