@@ -50,6 +50,11 @@ nav > ul > a {
   text-decoration: none;
 }
 
+/* a-link elements hover effect */
+nav > ul > a:hover {
+  color: #b23cd3;
+}
+
 /* Request demo button inside the nav */
 nav > a {
   color: #9a54bc;
