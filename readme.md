@@ -1,6 +1,6 @@
 # Project Title
 
-HTML/CSS/JS mock landing page (non-responsive)
+Mock landing page (non-responsive)
 
 ## Description
 
