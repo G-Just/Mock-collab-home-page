@@ -17,4 +17,4 @@ Developing a mock landing page by using HTML/CSS/JS, in hopes to learn and impro
 ## Deployed website
 
 Deployed using github pages :
-https://g-just.github.io/html-css-training-collab-page/
+https://g-just.github.io/Mock-landing-page/
