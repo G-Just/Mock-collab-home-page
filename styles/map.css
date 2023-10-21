@@ -1,3 +1,4 @@
+/* Map section block */
 #map {
   margin-top: 0;
   display: flex;
@@ -5,14 +6,17 @@
   justify-content: center;
 }
 
+/* Map section div's left and right */
 #map > div {
   width: 40%;
 }
 
+/* Map section div's left header */
 #map > div > h1 {
   margin: 4rem;
 }
 
+/* Map section div's left text */
 #map > div > p {
   text-align: center;
   font-family: "Roboto";
@@ -21,6 +25,7 @@
   font-weight: 500;
 }
 
+/* Map section div's right image with a map */
 #map > img {
   width: 60%;
 }

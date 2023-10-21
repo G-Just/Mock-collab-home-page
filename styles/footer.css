@@ -1,0 +1,80 @@
+/* Footer section block */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0 3rem 17rem;
+}
+
+/* Footer left div */
+footer > div:first-child {
+  width: 30%;
+}
+
+/* Footer left div header */
+footer > div:first-child > h1 {
+  color: #9a54bc;
+  text-shadow: 0px 0.22379617393016815px 0.5967897772789001px rgba(184, 216, 242, 0.25);
+  font-family: "Comfortaa";
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* Footer left div text */
+footer > div:first-child > p {
+  color: #2c2c2c;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Footer left div social containing div */
+footer > div:first-child > div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Footer left div social images */
+footer > div:first-child > div > img {
+  object-fit: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Footer right div table */
+footer > div:last-child > table {
+  border: none;
+  width: 800px;
+  height: 250px;
+}
+
+/* Footer right div table headers */
+footer > div:last-child > table > tbody > tr > th {
+  color: black;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Footer right div table data */
+footer > div:last-child > table > tbody > tr > td {
+  color: #742b9b;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Footer purple stripe with text under footer */
+#reserved {
+  color: white;
+  font-family: "DM Sans";
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #68248d;
+  text-align: center;
+  padding: 1rem;
+}
