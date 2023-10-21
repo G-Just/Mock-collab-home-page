@@ -1,10 +1,10 @@
 # Project Title
 
-HTML/CSS mock landing page
+HTML/CSS/JS mock landing page (non-responsive)
 
 ## Description
 
-Developing a mock landing page by using HTML/CSS only, in hopes to learn and improve at coding along the way.
+Developing a mock landing page by using HTML/CSS/JS, in hopes to learn and improve at coding along the way.
 
 ## Authors
 
