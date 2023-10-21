@@ -17,4 +17,4 @@ Developing a mock home page by using HTML/CSS/JS, in hopes to learn and improve 
 ## Deployed website
 
 Deployed using github pages :
-https://g-just.github.io/Mock-landing-page/
+g-just.github.io/Mock-home-page/
