@@ -1,10 +1,10 @@
 # Project Title
 
-Mock landing page (non-responsive)
+Mock home page (non-responsive)
 
 ## Description
 
-Developing a mock landing page by using HTML/CSS/JS, in hopes to learn and improve at coding along the way.
+Developing a mock home page by using HTML/CSS/JS, in hopes to learn and improve at coding along the way.
 
 ## Authors
 
