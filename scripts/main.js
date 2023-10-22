@@ -1,7 +1,6 @@
 const vendorApp = document.getElementById("vendorApp");
 const supervisorApp = document.getElementById("supervisorApp");
 const appDesc = document.querySelectorAll("#appDesc > p");
-
 vendorApp.addEventListener("click", () => {
   vendorApp.classList.add("selected");
   supervisorApp.classList.remove("selected");
@@ -9,6 +8,18 @@ vendorApp.addEventListener("click", () => {
     element.classList.add("vendorSelected");
     element.classList.remove("supervisorSelected");
   });
+  vendorText = document.getElementsByClassName("vendorSelected");
+  vendorText[0].innerHTML =
+    "<span>Work/Material request</span>: Whenever a client wants to start, a work request notifications with date and time for materials and artisians will be promted through their app.";
+
+  vendorText[1].innerHTML =
+    "<span>Project Management:</span> Work on multiple projects ...<span>see more</span>";
+
+  vendorText[2].innerHTML =
+    "<span>Payment:</span> Get paid for the work step by step ...<span>see more</span>";
+
+  vendorText[3].innerHTML =
+    "<span>Tutorials:</span> Explore the video tutorials to learn more ...<span>see more</span>";
 });
 
 supervisorApp.addEventListener("click", () => {
@@ -18,6 +29,15 @@ supervisorApp.addEventListener("click", () => {
     element.classList.add("supervisorSelected");
     element.classList.remove("vendorSelected");
   });
+  supervisorText = document.getElementsByClassName("supervisorSelected");
+  console.log("🚀 ~ file: main.js:33 ~ supervisorText ->", supervisorText);
+  supervisorText[0].innerHTML = "Text changes!";
+
+  supervisorText[1].innerHTML = "Text changes!";
+
+  supervisorText[2].innerHTML = "Text changes!";
+
+  supervisorText[3].innerHTML = "Text changes!";
 });
 
 const timePeriod = document.getElementById("timePeriod");
