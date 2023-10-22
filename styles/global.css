@@ -27,3 +27,8 @@ body {
   margin-top: 8rem;
   padding: 2rem;
 }
+
+.timePeriodSelected {
+  color: #2b0236 !important;
+  font-weight: bold !important;
+}

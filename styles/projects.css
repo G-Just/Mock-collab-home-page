@@ -5,15 +5,27 @@
   justify-content: space-evenly;
 }
 
+#projects > div > div > .img-div {
+  width: 400px;
+  height: 270px;
+  overflow: hidden;
+}
+
 /* Projects section images */
-#projects > div > div > img {
+#projects > div > div > .img-div > img {
   width: 400px;
   height: 270px;
   object-fit: cover;
+  transition: all 1s ease;
+}
+
+/* Projects section images zoom in effect */
+#projects > div > div > .img-div > img:hover {
+  scale: 1.2;
 }
 
 /* Projects section image names */
-#projects > div > div > p {
+#projects > div > div > div > p {
   color: #60267f;
   font-family: "Roboto";
   font-weight: 500;
@@ -21,6 +33,6 @@
 }
 
 /* Projects section image name amounts */
-#projects > div > div > p:last-child {
+#projects > div > div > div > p:last-child {
   color: black;
 }

@@ -22,7 +22,7 @@ nav {
 }
 
 /* Logo */
-nav > h1 {
+nav > a:first-child {
   cursor: pointer;
   color: #9a54bc;
   font-family: "Comfortaa";
@@ -31,6 +31,7 @@ nav > h1 {
   font-weight: 500;
   margin: 0;
   margin-left: 6.25rem;
+  text-decoration: none;
 }
 
 /* Unordered list inside nav with a-links */
@@ -56,7 +57,7 @@ nav > ul > a:hover {
 }
 
 /* Request demo button inside the nav */
-nav > a {
+nav > a:last-child {
   color: #9a54bc;
   font-family: "Roboto";
   font-size: 1rem;
@@ -69,7 +70,7 @@ nav > a {
 }
 
 /* Request demo button hover effect */
-nav > a:hover {
+nav > a:last-child:hover {
   background-color: #9a54bc;
   color: white;
 }

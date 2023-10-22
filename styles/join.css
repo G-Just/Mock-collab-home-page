@@ -42,6 +42,7 @@
 }
 
 #roadmap > img {
+  cursor: default;
   scale: 2;
 }
 

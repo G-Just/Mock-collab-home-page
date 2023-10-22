@@ -27,11 +27,12 @@
   <body>
     <div>
       <p>
-        Lithuania's first mobile app for construction industry. <a href="#">Learn More</a>
+        Lithuania's first mobile app for construction industry.
+        <a href="#">Learn More</a>
       </p>
     </div>
     <nav>
-      <h1>Collab</h1>
+      <a href="#">Collab</a>
       <ul>
         <a href="#">About</a>
         <a href="#">Product</a>
@@ -71,27 +72,27 @@
     <section class="section" id="app">
       <h1 class="title">How does Collab-app help?</h1>
       <div>
-        <div>
+        <div id="appDesc">
           <div>
-            <a>Vendor app</a>
-            <a>Site Supervisor app</a>
+            <p class="selected" id="vendorApp">Vendor app</p>
+            <p id="supervisorApp">Site Supervisor app</p>
           </div>
-          <p>
+          <p class="vendorSelected">
             <span>Work/Material request</span>: Whenever a client wants to start, a work
             request notifications with date and time for materials and artisians will be
             promted through their app.
           </p>
-          <p>
+          <p class="vendorSelected">
             <span>Project Management:</span> Work on multiple projects ...<span
               >see more</span
             >
           </p>
-          <p>
+          <p class="vendorSelected">
             <span>Payment:</span> Get paid for the work step by step ...<span
               >see more</span
             >
           </p>
-          <p>
+          <p class="vendorSelected">
             <span>Tutorials:</span> Explore the video tutorials to learn more ...
             <span>see more</span>
           </p>
@@ -119,19 +120,25 @@
       <h1 class="title">Projects completed using on Collab</h1>
       <div>
         <div>
-          <img src="./media/building1.jpg" />
-          <p>Building projects</p>
-          <p>100+</p>
+          <div class="img-div"><img src="./media/building1.jpg" /></div>
+          <div>
+            <p>Building projects</p>
+            <p>100+</p>
+          </div>
         </div>
         <div>
-          <img src="./media/building2.jpg" />
-          <p>Contract work</p>
-          <p>50+</p>
+          <div class="img-div"><img src="./media/building2.jpg" /></div>
+          <div>
+            <p>Contract work</p>
+            <p>50+</p>
+          </div>
         </div>
         <div>
-          <img src="./media/building3.jpg" />
-          <p>Building designs</p>
-          <p>30+</p>
+          <div class="img-div"><img src="./media/building3.jpg" /></div>
+          <div>
+            <p>Building designs</p>
+            <p>30+</p>
+          </div>
         </div>
       </div>
     </section>
@@ -139,18 +146,18 @@
       <h1 class="title">Ready to start work with Collab apps?</h1>
       <p>Choose the plan that suits you.</p>
       <div>
-        <p>Monthly</p>
+        <p id="monthly" class="timePeriodSelected">Monthly</p>
         <label class="switch">
-          <input type="checkbox" checked="1" />
+          <input id="timePeriod" type="checkbox" />
           <span class="slider round"></span>
         </label>
-        <p style="color: #2b0236; font-weight: bold">Yearly</p>
+        <p id="yearly">Yearly</p>
         <p>10% discount</p>
       </div>
       <div>
         <div>
           <p>Basic</p>
-          <p class="price">$3,000</p>
+          <p id="basicPrice" class="price">$270</p>
           <div><a href="#" class="rq-button">Request Demo</a></div>
           <ul>
             <li>Create BoQ</li>
@@ -160,7 +167,7 @@
         </div>
         <div>
           <p>Commercial</p>
-          <p class="price">$5,000</p>
+          <p id="commercialPrice" class="price">$450</p>
           <div><a href="#" class="rq-button">Request Demo</a></div>
           <ul>
             <li>Create BoQ</li>
@@ -314,6 +321,7 @@
         </p>
       </div>
     </footer>
-    <div id="reserved">@2022 Collab | All Rights Reserved</div>
+    <div id="reserved">@2023 Collab | All Rights Reserved</div>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
