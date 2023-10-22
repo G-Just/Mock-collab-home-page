@@ -6,37 +6,67 @@
   flex-direction: column;
 }
 /* Stars */
-#rating > img {
+.rating-stars {
   scale: 2.5;
 }
 
-/* Div containing text+arrows */
-#rating > div {
+/* Slide that changes */
+#rating > .slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  flex-direction: column;
 }
 
 /* Text */
-#rating > div > p {
-  width: 50rem;
+#rating > #slide-container > .slide > p {
   color: black;
   text-align: center;
   font-family: "Roboto";
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 /* Arrow images */
-#rating > div > img {
+#rating > img {
   scale: 2;
 }
 
-/* Text after person portrait */
-#rating > p {
-  color: black;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.2rem;
+#slide-container {
+  padding-top: 100px;
+  display: flex;
+  overflow: hidden;
+  width: 800px;
+  height: 550px;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  gap: 50px;
+}
+
+.slide > .portrait {
+  object-fit: cover;
+  object-position: 0 0%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  scale: 2;
+  margin: 0 !important;
+}
+
+.slide > .rating-stars {
+  scale: 2.5 !important;
+}
+
+.slide > .name {
+  margin: 0 !important;
+  font-weight: 800 !important;
+  font-size: 1.3rem !important;
 }

@@ -39,3 +39,44 @@ timePeriod.addEventListener("change", function () {
     commercialPrice.innerHTML = "$450";
   }
 });
+
+const left = document.getElementById("left");
+const right = document.getElementById("right");
+const slides = document.getElementsByClassName("slide");
+
+const count = slides.length;
+
+let x = 0;
+left.addEventListener("click", () => {
+  for (let item of slides) {
+    item.animate(
+      { transform: `translate(${x}px)`, transform: `translate(${x + 800}px` },
+      { duration: 300, fill: "forwards" }
+    );
+  }
+  x += 800;
+  if (x === 800) {
+    left.style.display = "none";
+    right.style.display = "block";
+  } else {
+    left.style.display = "block";
+    right.style.display = "block";
+  }
+});
+
+right.addEventListener("click", () => {
+  for (let item of slides) {
+    item.animate(
+      { transform: `translate(${x}px)`, transform: `translate(${x - 800}px` },
+      { duration: 300, fill: "forwards" }
+    );
+  }
+  x -= 800;
+  if (x === -800) {
+    right.style.display = "none";
+    left.style.display = "block";
+  } else {
+    left.style.display = "block";
+    right.style.display = "block";
+  }
+});
