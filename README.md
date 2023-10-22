@@ -4,7 +4,7 @@ Mock home page (non-responsive)
 
 ## Description
 
-Developing a mock home page by using HTML/CSS/JS, in hopes to learn and improve at coding along the way.
+Developing a mock home page by using HTML/CSS/JS.
 
 ## Authors
 
